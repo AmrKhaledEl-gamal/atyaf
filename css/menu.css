@@ -500,21 +500,53 @@ button {
     align-items: center;
     justify-content: space-between;
     gap: 16px;
-    margin-bottom: 20px;
-    padding-bottom: 12px;
-    border-bottom: 2px solid var(--bg-page);
+    margin-bottom: 24px;
+    padding-bottom: 14px;
+    border-bottom: 2px dashed rgba(78, 60, 246, 0.18);
     flex-wrap: wrap;
     direction: rtl;
 }
 
 .section-title-header {
-    font-size: 1.4rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    background: linear-gradient(135deg, #F5F3FF 0%, #FFF9EA 100%);
+    padding: 8px 24px 8px 14px;
+    border-radius: var(--radius-pill);
+    border: 2px solid rgba(78, 60, 246, 0.18);
+    box-shadow: 0 4px 16px rgba(78, 60, 246, 0.08);
+    font-size: 1.3rem;
     font-weight: 900;
     color: var(--purple-header);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    direction: rtl;
+    transition: var(--transition);
+    position: relative;
+    user-select: none;
+}
+
+.section-title-header:hover {
+    transform: translateY(-2px);
+    border-color: var(--purple-primary);
+    box-shadow: 0 8px 24px rgba(78, 60, 246, 0.15);
+    background: linear-gradient(135deg, #EDE9FF 0%, #FFF4D4 100%);
+}
+
+.section-title-header > svg,
+.section-title-icon-badge {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--purple-primary) 0%, var(--purple-dark) 100%);
+    stroke: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(78, 60, 246, 0.3);
+    flex-shrink: 0;
+    transition: transform var(--transition);
+}
+
+.section-title-header:hover > svg,
+.section-title-header:hover .section-title-icon-badge {
+    transform: rotate(-10deg) scale(1.1);
 }
 
 .header-phone-btns {
@@ -913,5 +945,18 @@ button {
 
     .header-prices-group {
         gap: 4px;
+    }
+
+    .section-title-header {
+        font-size: 1.12rem;
+        padding: 6px 16px 6px 10px;
+        gap: 10px;
+    }
+
+    .section-title-header > svg,
+    .section-title-icon-badge {
+        width: 34px;
+        height: 34px;
+        padding: 6px;
     }
 }
