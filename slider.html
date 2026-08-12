@@ -29,14 +29,14 @@
             direction: rtl;
         }
 
-        /* FULLSCREEN SLIDER TRACK (LTR viewport for 100% cross-browser mobile accuracy) */
+        /* FULLSCREEN SLIDER TRACK (RTL direction flow) */
         .slider-viewport {
             width: 100vw;
             height: 100vh;
             height: 100dvh;
             position: relative;
             overflow: hidden;
-            direction: ltr;
+            direction: rtl;
             touch-action: pan-y pinch-zoom;
         }
 
@@ -46,7 +46,7 @@
             height: 100%;
             transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
             will-change: transform;
-            direction: ltr;
+            direction: rtl;
         }
 
         .slide-item {
@@ -504,8 +504,8 @@
             if (index < 0 || index >= totalSlides) return;
             currentIndex = index;
 
-            // In LTR viewport track, slide leftwards using negative percentage offset
-            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+            // In RTL viewport track, slide rightwards using positive percentage offset
+            track.style.transform = `translateX(${currentIndex * 100}%)`;
 
             dots.forEach((dot, idx) => {
                 dot.classList.toggle('active', idx === currentIndex);
