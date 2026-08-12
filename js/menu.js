@@ -5,13 +5,13 @@
 
 // SVG Icon Definitions
 const SVG_ICONS = {
-  flavors: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7z"/><path d="M10 21h4"/></svg>`,
-  booza: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m7 11 5 11 5-11"/><path d="M17 11a5 5 0 0 0-10 0"/></svg>`,
-  diet: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20A9 9 0 0 1 2 11 9 9 0 0 1 11 2c4.97 0 9 4.03 9 9a9 9 0 0 1-9 9z"/><path d="M11 2v18"/></svg>`,
-  boxes: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M12 8v13"/><path d="M3 12h18"/><path d="M8 8V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v3"/></svg>`,
-  milkshake: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 3h6v5H9z"/><path d="M15 3l4-2"/></svg>`,
-  supplies: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 0-4 4v5a4 4 0 0 0 8 0V6a4 4 0 0 0-4-4z"/><path d="M12 15v7"/></svg>`,
-  branches: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-8-7.5-8-12a8 8 0 1 1 16 0c0 4.5-8 12-8 12z"/><circle cx="12" cy="9" r="3"/></svg>`,
+  flavors: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 11 5 11 5-11"/><circle cx="12" cy="8" r="5"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>`,
+  booza: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h18l-1.5 8a2 2 0 0 1-2 1.7H6.5a2 2 0 0 1-2-1.7L3 11z"/><path d="M6 11c0-2.5 2.5-5 6-5s6 2.5 6 5"/><circle cx="12" cy="3.5" r="1.5"/></svg>`,
+  diet: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A9 9 0 0 1 2 11C2 5.5 6.5 2 12 2c5.5 0 10 4.5 10 10 0 5.5-4.5 9-11 8z"/><path d="M2 21c5.5-3.5 8.5-7.5 10-12"/></svg>`,
+  boxes: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M12 8v13"/><path d="M3 12h18"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5C10 3 12 8 12 8s2-5 4.5-5a2.5 2.5 0 0 1 0 5"/></svg>`,
+  milkshake: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 9h10l-1.2 11.2a2 2 0 0 1-2 1.8H10.2a2 2 0 0 1-2-1.8L7 9z"/><path d="M6.5 9A3.5 3.5 0 0 1 10 5.5c.8 0 1.5.3 2 .8.5-.5 1.2-.8 2-.8A3.5 3.5 0 0 1 17.5 9"/><path d="M12 6V2L16 1"/></svg>`,
+  supplies: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0-6 6c0 2.5 1.5 4.7 3.7 5.5L8 21h8l-1.7-6.5C16.5 13.7 18 11.5 18 9a6 6 0 0 0-6-6z"/><path d="M10 17.5h4"/></svg>`,
+  branches: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
 };
 
 const MENU_DATA = {
