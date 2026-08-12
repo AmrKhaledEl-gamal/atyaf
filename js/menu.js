@@ -42,115 +42,96 @@ const MENU_DATA = {
   rightFlavors: [
     {
       name: "عربية",
-      img: "images/icecream_pistachio.png",
       p1L: "JD 5",
       p4L: "JD 12",
     },
     {
       name: "سنكرز",
-      img: "images/icecream_chocolate.png",
       p1L: "JD 5",
       p4L: "JD 12",
     },
     {
       name: "تشيز كيك",
-      img: "images/icecream_vanilla.png",
       p1L: "JD 5",
       p4L: "JD 12",
     },
     {
       name: "شوكولاتة سادة",
-      img: "images/icecream_chocolate.png",
       p1L: "JD 5",
       p4L: "JD 12",
     },
     {
       name: "كيوي",
-      img: "images/icecream_pistachio.png",
       p1L: "JD 5",
       p4L: "JD 12",
     },
     {
       name: "مانجا",
-      img: "images/icecream_mango.png",
       p1L: "JD 5",
       p4L: "JD 12",
     },
     {
       name: "فراولة",
-      img: "images/icecream_strawberry.png",
       p1L: "JD 5",
       p4L: "JD 12",
     },
     {
       name: "ليمون",
-      img: "images/icecream_mango.png",
       p1L: "JD 5",
       p4L: "JD 12",
     },
     {
       name: "بلاك بيري",
-      img: "images/icecream_berry.png",
       p1L: "JD 5",
       p4L: "JD 12",
     },
     {
       name: "شمام",
-      img: "images/icecream_mango.png",
       p1L: "JD 5",
       p4L: "JD 12",
     },
     {
       name: "باونتي",
-      img: "images/icecream_vanilla.png",
       p1L: "JD 6",
       p4L: "JD 12",
     },
     {
       name: "علكة ( بابل جم )",
-      img: "images/icecream_strawberry.png",
       p1L: "JD 6",
       p4L: "JD 14",
     },
     {
       name: "توتي فروتي",
-      img: "images/icecream_berry.png",
       p1L: "JD 6",
       p4L: "JD 14",
     },
     {
       name: "كت كات",
-      img: "images/icecream_chocolate.png",
       p1L: "JD 6",
       p4L: "JD 14",
     },
     {
       name: "اوريو",
-      img: "images/icecream_chocolate.png",
       p1L: "JD 6",
       p4L: "JD 14",
     },
     {
       name: "فانيلا فرنسية",
-      img: "images/icecream_vanilla.png",
       p1L: "JD 6",
       p4L: "JD 14",
     },
     {
       name: "جلاكسي",
-      img: "images/icecream_chocolate.png",
       p1L: "JD 6",
       p4L: "JD 14",
     },
     {
       name: "شوكولاتة دبل",
-      img: "images/icecream_chocolate.png",
       p1L: "JD 6",
       p4L: "JD 14",
     },
     {
       name: "كروكان",
-      img: "images/icecream_caramel.png",
       p1L: "JD 6",
       p4L: "JD 14",
     },
@@ -160,118 +141,99 @@ const MENU_DATA = {
   leftFlavors: [
     {
       name: "كوتن كاندي",
-      img: "images/icecream_strawberry.png",
       p1L: "JD 6",
       p4L: "JD 14",
     },
     {
       name: "أناناس",
-      img: "images/icecream_mango.png",
       p1L: "JD 6",
       p4L: "JD 14",
     },
     {
       name: "مالتيزرز",
-      img: "images/icecream_chocolate.png",
       p1L: "JD 6",
       p4L: "JD 16",
     },
     {
       name: "كندر",
-      img: "images/icecream_chocolate.png",
       p1L: "JD 6",
       p4L: "JD 16",
     },
     {
       name: "ريد فلفت",
-      img: "images/icecream_strawberry.png",
       p1L: "JD 6",
       p4L: "JD 16",
     },
     {
       name: "فريروروشيه",
-      img: "images/icecream_chocolate.png",
       p1L: "JD 7",
       p4L: "JD 18",
     },
     {
       name: "شوكولاتة دارك",
-      img: "images/icecream_chocolate.png",
       p1L: "JD 7",
       p4L: "JD 18",
     },
     {
       name: "موكا",
-      img: "images/icecream_caramel.png",
       p1L: "JD 7",
       p4L: "JD 18",
     },
     {
       name: "باشن فروت",
-      img: "images/icecream_mango.png",
       p1L: "JD 7",
       p4L: "JD 18",
     },
     {
       name: "كوكيز",
-      img: "images/icecream_caramel.png",
       p1L: "JD 7",
       p4L: "JD 18",
     },
     {
       name: "لبن yogurt",
-      img: "images/icecream_vanilla.png",
       p1L: "JD 7",
       p4L: "JD 18",
     },
     {
       name: "لوتس",
-      img: "images/icecream_caramel.png",
       p1L: "JD 7",
       p4L: "JD 18",
     },
     {
       name: "فانيلا دايت",
-      img: "images/icecream_vanilla.png",
       p1L: "JD 7",
       p4L: "JD 18",
       badge: "دايت",
     },
     {
       name: "نوتيلا",
-      img: "images/icecream_chocolate.png",
       p1L: "JD 7",
       p4L: "JD 18",
     },
     {
       name: "شوكولاتة دايت",
-      img: "images/icecream_chocolate.png",
       p1L: "JD 7",
       p4L: "JD 18",
       badge: "دايت",
     },
     {
       name: "عربية دايت",
-      img: "images/icecream_pistachio.png",
       p1L: "JD 7",
       p4L: "JD 18",
       badge: "دايت",
     },
     {
       name: "كاراميل مالح",
-      img: "images/icecream_caramel.png",
       p1L: "JD 7",
       p4L: "JD 18",
     },
     {
       name: "تشيري مانيا",
-      img: "images/icecream_mango.png",
       p1L: "JD 7",
       p4L: "JD 18",
     },
     {
       name: "بستاشيو",
-      img: "images/icecream_pistachio.png",
       p1L: "JD 9",
       p4L: "JD 25",
       badge: "الأكثر طلباً",
@@ -283,34 +245,27 @@ const MENU_DATA = {
     {
       name: "سكوب بوظة عربية",
       price: "JD 1",
-      img: "images/icecream_pistachio.png",
     },
     {
       name: "سكوبين بوظة عربية",
       price: "JD 1.5",
-      img: "images/icecream_pistachio.png",
     },
     {
       name: "رول عربية (1/2 كيلو)",
       price: "JD 6",
-      img: "images/icecream_pistachio.png",
     },
-    { name: "لتر عربي", price: "JD 5", img: "images/icecream_pistachio.png" },
     {
       name: "4 لتر عربية",
       price: "JD 12",
-      img: "images/icecream_pistachio.png",
     },
     {
       name: "لتر عربي دايت",
       price: "JD 7",
-      img: "images/icecream_pistachio.png",
       badge: "دايت",
     },
     {
       name: "4 لتر دايت",
       price: "JD 18",
-      img: "images/icecream_pistachio.png",
       badge: "دايت",
     },
   ],
@@ -321,21 +276,18 @@ const MENU_DATA = {
       name: "فانيلا دايت",
       p1L: "JD 7",
       p4L: "JD 18",
-      img: "images/icecream_vanilla.png",
       badge: "دايت",
     },
     {
       name: "شوكولاتة دايت",
       p1L: "JD 7",
       p4L: "JD 18",
-      img: "images/icecream_chocolate.png",
       badge: "دايت",
     },
     {
       name: "عربية دايت",
       p1L: "JD 7",
       p4L: "JD 18",
-      img: "images/icecream_pistachio.png",
       badge: "دايت",
     },
   ],
@@ -345,12 +297,10 @@ const MENU_DATA = {
     {
       name: "علبة مكس 6 سكوب",
       price: "JD 4",
-      img: "images/icecream_hero_bowl.png",
     },
     {
       name: "علبة مكس 12 سكوب",
       price: "JD 8",
-      img: "images/icecream_hero_bowl.png",
     },
   ],
 
@@ -359,7 +309,6 @@ const MENU_DATA = {
     {
       name: "ميلك شيك جميع النكهات",
       price: "JD 2",
-      img: "images/icecream_strawberry.png",
     },
   ],
 
@@ -368,27 +317,22 @@ const MENU_DATA = {
     {
       name: "بسكوت وافل (عدد 10)",
       price: "JD 1.5",
-      img: "images/icecream_caramel.png",
     },
     {
       name: "بسكوت سوفت (135 حبة)",
       price: "JD 2",
-      img: "images/icecream_caramel.png",
     },
     {
       name: "كاسات ورق 1 سكوب (50 حبة)",
       price: "JD 1.25",
-      img: "images/icecream_vanilla.png",
     },
     {
       name: "كاسات ورق 2 سكوب (50 حبة)",
       price: "JD 2",
-      img: "images/icecream_vanilla.png",
     },
     {
       name: "معالق بلاستيكية (50 حبة)",
       price: "JD 0.5",
-      img: "images/icecream_vanilla.png",
     },
   ],
 
@@ -479,7 +423,6 @@ function createFlavorRowHTML(item) {
             <div class="dotted-leader"></div>
             <div class="flavor-label-wrap">
                 <span class="flavor-name-text">${item.name}</span>
-                <img src="${item.img}" alt="${item.name}" class="flavor-thumb-img" loading="lazy">
             </div>
         </div>
     `;
@@ -500,7 +443,6 @@ function renderOtherSections() {
                 <div class="dotted-leader"></div>
                 <div class="flavor-label-wrap">
                     <span class="flavor-name-text">${item.name}</span>
-                    <img src="${item.img}" alt="${item.name}" class="flavor-thumb-img">
                 </div>
             </div>
         `,
@@ -522,7 +464,6 @@ function renderOtherSections() {
                 <div class="dotted-leader"></div>
                 <div class="flavor-label-wrap">
                     <span class="flavor-name-text">${item.name}</span>
-                    <img src="${item.img}" alt="${item.name}" class="flavor-thumb-img">
                 </div>
             </div>
         `,
@@ -541,7 +482,6 @@ function renderOtherSections() {
                 <div class="dotted-leader"></div>
                 <div class="flavor-label-wrap">
                     <span class="flavor-name-text">${item.name}</span>
-                    <img src="${item.img}" alt="${item.name}" class="flavor-thumb-img">
                 </div>
             </div>
         `,
@@ -560,7 +500,6 @@ function renderOtherSections() {
                 <div class="dotted-leader"></div>
                 <div class="flavor-label-wrap">
                     <span class="flavor-name-text">${item.name}</span>
-                    <img src="${item.img}" alt="${item.name}" class="flavor-thumb-img">
                 </div>
             </div>
         `,
@@ -579,7 +518,6 @@ function renderOtherSections() {
                 <div class="dotted-leader"></div>
                 <div class="flavor-label-wrap">
                     <span class="flavor-name-text">${item.name}</span>
-                    <img src="${item.img}" alt="${item.name}" class="flavor-thumb-img">
                 </div>
             </div>
         `,
