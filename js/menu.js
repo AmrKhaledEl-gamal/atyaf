@@ -33,7 +33,7 @@ const MENU_DATA = {
     },
     {
       id: "branches-contact",
-      title: "فروعنا وتواصل معنا",
+      title: "فروعنا ",
       iconSvg: SVG_ICONS.branches,
     },
   ],
