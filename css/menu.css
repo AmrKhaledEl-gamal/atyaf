@@ -349,12 +349,19 @@ button {
 
 /* Table Header Pills Row */
 .table-col-header-pills {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 10px;
     margin-bottom: 16px;
     padding-bottom: 12px;
     border-bottom: 2px dashed var(--border-subtle);
+}
+
+.header-prices-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
 .col-header-pill {
@@ -897,5 +904,14 @@ button {
     .flavor-thumb-img {
         width: 28px;
         height: 28px;
+    }
+
+    .col-header-pill {
+        font-size: 0.75rem;
+        padding: 6px 8px;
+    }
+
+    .header-prices-group {
+        gap: 4px;
     }
 }

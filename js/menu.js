@@ -416,13 +416,13 @@ function renderFlavorTables() {
 function createFlavorRowHTML(item) {
   return `
         <div class="flavor-table-row" data-name="${item.name}">
-            <div class="prices-group">
-                <span class="price-pill pill-yellow">${item.p4L}</span>
-                <span class="price-pill pill-blue">${item.p1L}</span>
-            </div>
-            <div class="dotted-leader"></div>
             <div class="flavor-label-wrap">
                 <span class="flavor-name-text">${item.name}</span>
+            </div>
+            <div class="dotted-leader"></div>
+            <div class="prices-group">
+                <span class="price-pill pill-blue">${item.p1L}</span>
+                <span class="price-pill pill-yellow">${item.p4L}</span>
             </div>
         </div>
     `;
@@ -439,11 +439,11 @@ function renderOtherSections() {
       .map(
         (item) => `
             <div class="simple-item-card" data-name="${item.name}">
-                <div class="price-pill pill-blue">${item.price}</div>
-                <div class="dotted-leader"></div>
                 <div class="flavor-label-wrap">
                     <span class="flavor-name-text">${item.name}</span>
                 </div>
+                <div class="dotted-leader"></div>
+                <div class="price-pill pill-blue">${item.price}</div>
             </div>
         `,
       )
@@ -457,13 +457,13 @@ function renderOtherSections() {
       .map(
         (item) => `
             <div class="simple-item-card" data-name="${item.name}">
-                <div class="prices-group">
-                    <span class="price-pill pill-yellow">${item.p4L}</span>
-                    <span class="price-pill pill-blue">${item.p1L}</span>
-                </div>
-                <div class="dotted-leader"></div>
                 <div class="flavor-label-wrap">
                     <span class="flavor-name-text">${item.name}</span>
+                </div>
+                <div class="dotted-leader"></div>
+                <div class="prices-group">
+                    <span class="price-pill pill-blue">${item.p1L}</span>
+                    <span class="price-pill pill-yellow">${item.p4L}</span>
                 </div>
             </div>
         `,
@@ -478,11 +478,11 @@ function renderOtherSections() {
       .map(
         (item) => `
             <div class="simple-item-card" data-name="${item.name}">
-                <div class="price-pill pill-blue">${item.price}</div>
-                <div class="dotted-leader"></div>
                 <div class="flavor-label-wrap">
                     <span class="flavor-name-text">${item.name}</span>
                 </div>
+                <div class="dotted-leader"></div>
+                <div class="price-pill pill-blue">${item.price}</div>
             </div>
         `,
       )
@@ -496,11 +496,11 @@ function renderOtherSections() {
       .map(
         (item) => `
             <div class="simple-item-card" data-name="${item.name}">
-                <div class="price-pill pill-blue">${item.price}</div>
-                <div class="dotted-leader"></div>
                 <div class="flavor-label-wrap">
                     <span class="flavor-name-text">${item.name}</span>
                 </div>
+                <div class="dotted-leader"></div>
+                <div class="price-pill pill-blue">${item.price}</div>
             </div>
         `,
       )
@@ -514,11 +514,11 @@ function renderOtherSections() {
       .map(
         (item) => `
             <div class="simple-item-card" data-name="${item.name}">
-                <div class="price-pill pill-blue">${item.price}</div>
-                <div class="dotted-leader"></div>
                 <div class="flavor-label-wrap">
                     <span class="flavor-name-text">${item.name}</span>
                 </div>
+                <div class="dotted-leader"></div>
+                <div class="price-pill pill-blue">${item.price}</div>
             </div>
         `,
       )
