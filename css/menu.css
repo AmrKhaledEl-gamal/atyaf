@@ -513,13 +513,13 @@ button {
 .section-title-header {
     display: inline-flex;
     align-items: center;
-    gap: 14px;
+    gap: 12px;
     background: linear-gradient(135deg, #F5F3FF 0%, #FFF9EA 100%);
-    padding: 8px 24px 8px 14px;
+    padding: 7px 20px 7px 12px;
     border-radius: var(--radius-pill);
     border: 2px solid rgba(78, 60, 246, 0.18);
     box-shadow: 0 4px 16px rgba(78, 60, 246, 0.08);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 900;
     color: var(--purple-header);
     transition: var(--transition);
@@ -536,9 +536,9 @@ button {
 
 .section-title-header > svg,
 .section-title-icon-badge {
-    width: 40px;
-    height: 40px;
-    padding: 8px;
+    width: 34px;
+    height: 34px;
+    padding: 7px;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--purple-primary) 0%, var(--purple-dark) 100%);
     stroke: #ffffff !important;
@@ -993,16 +993,16 @@ button {
     }
 
     .section-title-header {
-        font-size: 1.12rem;
-        padding: 6px 16px 6px 10px;
-        gap: 10px;
+        font-size: 0.95rem;
+        padding: 5px 14px 5px 8px;
+        gap: 8px;
     }
 
     .section-title-header > svg,
     .section-title-icon-badge {
-        width: 34px;
-        height: 34px;
-        padding: 6px;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
     }
 
     .header-phone-btns {
