@@ -455,10 +455,11 @@
             const diffY = startY - endY;
 
             if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 35) {
-                if (diffX > 0 && currentIndex < totalSlides - 1) {
-                    goToSlide(currentIndex + 1);
-                } else if (diffX < 0 && currentIndex > 0) {
+                // RTL: swipe left (diffX > 0) = previous, swipe right (diffX < 0) = next
+                if (diffX > 0 && currentIndex > 0) {
                     goToSlide(currentIndex - 1);
+                } else if (diffX < 0 && currentIndex < totalSlides - 1) {
+                    goToSlide(currentIndex + 1);
                 }
             }
         }, { passive: true });
