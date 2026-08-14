@@ -456,9 +456,9 @@
 
             if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 35) {
                 if (diffX > 0 && currentIndex < totalSlides - 1) {
-                    goToSlide(currentIndex - 1);
-                } else if (diffX < 0 && currentIndex > 0) {
                     goToSlide(currentIndex + 1);
+                } else if (diffX < 0 && currentIndex > 0) {
+                    goToSlide(currentIndex - 1);
                 }
             }
         }, { passive: true });
