@@ -320,23 +320,23 @@ const MENU_DATA = {
   cakeMolds: [
     {
       name: "قالب كيك فريروروشيه",
-      price: "JD 13.5",
+      price: "JD 15",
     },
     {
       name: "قالب كيك لوتس",
-      price: "JD 13.5",
+      price: "JD 15",
     },
     {
       name: "قالب كيك سنيكرز",
-      price: "JD 13.5",
+      price: "JD 15",
     },
     {
       name: "قالب كيك اوريو",
-      price: "JD 13.5",
+      price: "JD 15",
     },
     {
       name: "قالب كيك كندر",
-      price: "JD 13.5",
+      price: "JD 15",
     },
   ],
 
