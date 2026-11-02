@@ -11,6 +11,7 @@ const SVG_ICONS = {
   boxes: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M12 8v13"/><path d="M3 12h18"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5C10 3 12 8 12 8s2-5 4.5-5a2.5 2.5 0 0 1 0 5"/></svg>`,
   milkshake: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 9h10l-1.2 11.2a2 2 0 0 1-2 1.8H10.2a2 2 0 0 1-2-1.8L7 9z"/><path d="M6.5 9A3.5 3.5 0 0 1 10 5.5c.8 0 1.5.3 2 .8.5-.5 1.2-.8 2-.8A3.5 3.5 0 0 1 17.5 9"/><path d="M12 6V2L16 1"/></svg>`,
   cakeMolds: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8"/><path d="M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2.5 2 4 2 2-1 2-1"/><path d="M2 21h20"/><path d="M7 8v2"/><path d="M12 8v2"/><path d="M17 8v2"/><path d="M7 4h.01"/><path d="M12 4h.01"/><path d="M17 4h.01"/></svg>`,
+  iceCreamCakeMolds: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 0-4 4c0 1.5.8 2.8 2 3.5V11h4V9.5c1.2-.7 2-2 2-3.5a4 4 0 0 0-4-4z"/><path d="M4 14a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v7H4v-7z"/><path d="M2 21h20"/><path d="M7 16v2"/><path d="M12 16v2"/><path d="M17 16v2"/></svg>`,
   englishCake: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="2"/><path d="M7.2 7.9 3 11v9c0 .6.4 1 1 1h16c.6 0 1-.4 1-1v-9c0-2-3-6-7-8l-3.6 2.6"/><path d="M16 13H3"/><path d="M16 17H3"/></svg>`,
   supplies: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0-6 6c0 2.5 1.5 4.7 3.7 5.5L8 21h8l-1.7-6.5C16.5 13.7 18 11.5 18 9a6 6 0 0 0-6-6z"/><path d="M10 17.5h4"/></svg>`,
   branches: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
@@ -29,6 +30,11 @@ const MENU_DATA = {
     { id: "mixed-boxes", title: "آيس كريم مشكل", iconSvg: SVG_ICONS.boxes },
     { id: "milkshakes", title: "ميلك شيك", iconSvg: SVG_ICONS.milkshake },
     { id: "cake-molds", title: "قوالب كيك", iconSvg: SVG_ICONS.cakeMolds },
+    {
+      id: "ice-cream-cake-molds",
+      title: "قوالب آيس كريم كيك",
+      iconSvg: SVG_ICONS.iceCreamCakeMolds,
+    },
     { id: "english-cake", title: "انجلش كيك", iconSvg: SVG_ICONS.englishCake },
     {
       id: "supplies",
@@ -340,6 +346,46 @@ const MENU_DATA = {
     },
   ],
 
+  // Ice Cream Cake Molds Section Data
+  iceCreamCakeMolds: [
+    {
+      name: "قالب ايس كريم كيك فريروروشيه",
+      price: "JD 18",
+    },
+    {
+      name: "قالب ايس كريم كيك عربية",
+      price: "JD 18",
+    },
+    {
+      name: "قالب ايس كريم كيك سنيكرز",
+      price: "JD 18",
+    },
+    {
+      name: "قالب ايس كريم كيك كت كات",
+      price: "JD 18",
+    },
+  ],
+
+  // Ice Cream Cake Molds Section Data
+  iceCreamCakeMolds: [
+    {
+      name: "قالب ايس كريم كيك فريروروشيه",
+      price: "JD 18",
+    },
+    {
+      name: "قالب ايس كريم كيك عربية",
+      price: "JD 18",
+    },
+    {
+      name: "قالب ايس كريم كيك سنيكرز",
+      price: "JD 18",
+    },
+    {
+      name: "قالب ايس كريم كيك كت كات",
+      price: "JD 18",
+    },
+  ],
+
   // English Cake Section Data
   englishCakes: [
     {
@@ -538,6 +584,26 @@ function renderOtherSections() {
   const cakeMoldsContainer = document.getElementById("cake-molds-grid");
   if (cakeMoldsContainer) {
     cakeMoldsContainer.innerHTML = MENU_DATA.cakeMolds
+      .map(
+        (item) => `
+            <div class="simple-item-card" data-name="${item.name}">
+                <div class="flavor-label-wrap">
+                    <span class="flavor-name-text">${item.name}</span>
+                </div>
+                <div class="dotted-leader"></div>
+                <div class="price-pill pill-blue">${item.price}</div>
+            </div>
+        `,
+      )
+      .join("");
+  }
+
+  // Ice Cream Cake Molds
+  const iceCreamCakeMoldsContainer = document.getElementById(
+    "ice-cream-cake-molds-grid",
+  );
+  if (iceCreamCakeMoldsContainer) {
+    iceCreamCakeMoldsContainer.innerHTML = MENU_DATA.iceCreamCakeMolds
       .map(
         (item) => `
             <div class="simple-item-card" data-name="${item.name}">
